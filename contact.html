@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Gym Titus • Contact</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header class="navbar" role="navigation">
+    <div class="container">
+      <a class="brand" href="index.html" aria-label="Gym Titus home">
+        <img src="https://www.csustan.edu/sites/default/files/2022-01/campus-rec-stockton-campus-rec-1.png" alt="CSU Stanislaus">
+        <span>Gym Titus</span>
+      </a>
+      <nav class="navlinks" aria-label="Primary">
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html">Contact</a>
+        <a href="about.html">About</a>
+        <a href="login.html">Login</a>
+      </nav>
+    </div>
+  </header>
+
+
+  <section class="hero" role="banner">
+    <div class="container">
+      <h1>Contact Us</h1>
+      <p>Questions, feedback, or membership info — we’re here to help.</p>
+    </div>
+  </section>
+
+  <main class="container section">
+    <div class="grid grid-2">
+      <form id="contact-form" class="form" method="post" novalidate>
+        <div class="grid grid-2">
+          <div>
+            <label for="fname">First Name</label>
+            <input id="fname" name="fname" placeholder="First name">
+          </div>
+          <div>
+            <label for="lname">Last Name</label>
+            <input id="lname" name="lname" placeholder="Last name">
+          </div>
+        </div>
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" placeholder="name@example.com">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" placeholder="How can we help?"></textarea>
+        <button class="btn" type="submit">Send</button>
+      </form>
+
+      <aside>
+        <div class="card">
+          <h3>Location</h3>
+          <p>One University Circle, Turlock, CA 95382<br>California State University, Stanislaus</p>
+        </div>
+        <div class="card">
+          <h3>Hours</h3>
+          <p>Mon–Fri 9:00am–5:00pm<br>Sat–Sun Closed</p>
+        </div>
+        <div class="card">
+          <h3>Phone &amp; Email</h3>
+          <p>(123) 456-7890<br>info@csustan.edu</p>
+        </div>
+      </aside>
+    </div>
+  </main>
+
+
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <small>© 2025 Gym Titus. Student project for CSU Stanislaus.</small>
+      <small>One University Circle, Turlock, CA 95382 • M–F 9:00am–5:00pm</small>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

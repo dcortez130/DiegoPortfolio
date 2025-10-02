@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Gym Titus • Login</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header class="navbar" role="navigation">
+    <div class="container">
+      <a class="brand" href="index.html" aria-label="Gym Titus home">
+        <img src="https://www.csustan.edu/sites/default/files/2022-01/campus-rec-stockton-campus-rec-1.png" alt="CSU Stanislaus">
+        <span>Gym Titus</span>
+      </a>
+      <nav class="navlinks" aria-label="Primary">
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html">Contact</a>
+        <a href="about.html">About</a>
+        <a href="login.html">Login</a>
+      </nav>
+    </div>
+  </header>
+
+
+  <main class="container section" style="padding-top:40px;">
+    <h1>Login</h1>
+    <p class="lead">Use your campus credentials to sign in.</p>
+
+    <form id="login-form" class="form" action="LoginServlet" method="post">
+      <label for="uname">Username</label>
+      <input id="uname" name="uname" placeholder="Username" required>
+
+      <label for="psw">Password</label>
+      <input id="psw" name="psw" type="password" placeholder="Password" required>
+
+      <label style="display:flex;align-items:center;gap:8px;margin-top:12px;">
+        <input type="checkbox" name="remember" checked> Remember me
+      </label>
+
+      <button class="btn" type="submit">Sign In</button>
+      <div class="notice" aria-live="polite">Note: Server-side validation should use prepared statements with parameterized queries.</div>
+    </form>
+  </main>
+
+
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <small>© 2025 Gym Titus. Student project for CSU Stanislaus.</small>
+      <small>One University Circle, Turlock, CA 95382 • M–F 9:00am–5:00pm</small>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

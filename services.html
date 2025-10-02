@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Gym Titus • Services</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header class="navbar" role="navigation">
+    <div class="container">
+      <a class="brand" href="index.html" aria-label="Gym Titus home">
+        <img src="https://www.csustan.edu/sites/default/files/2022-01/campus-rec-stockton-campus-rec-1.png" alt="CSU Stanislaus">
+        <span>Gym Titus</span>
+      </a>
+      <nav class="navlinks" aria-label="Primary">
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html">Contact</a>
+        <a href="about.html">About</a>
+        <a href="login.html">Login</a>
+      </nav>
+    </div>
+  </header>
+
+
+  <section class="hero" role="banner">
+    <div class="container">
+      <h1>Services & Equipment</h1>
+      <p>Machines, free weights, and certified trainers ready to help you progress.</p>
+    </div>
+  </section>
+
+  <main class="container section">
+    <h2>Machines</h2>
+    <div class="cards">
+      <div class="card"><h3>Chest Press</h3><p>Targets pectoralis major for upper body strength.</p></div>
+      <div class="card"><h3>Chest Fly</h3><p>Builds chest definition and stability.</p></div>
+      <div class="card"><h3>Arm Curl</h3><p>Isolates biceps for hypertrophy and control.</p></div>
+      <div class="card"><h3>Triceps Press</h3><p>Develops triceps strength and lockout power.</p></div>
+      <div class="card"><h3>Cable Row</h3><p>Engages lats and mid-back for posture.</p></div>
+      <div class="card"><h3>Lat Pull Down</h3><p>Strengthens back and arms with controlled pulls.</p></div>
+    </div>
+
+    <h2>Free Weights</h2>
+    <div class="cards">
+      <div class="card"><h3>Dumbbells</h3><p>Versatile lifts for all muscle groups.</p></div>
+      <div class="card"><h3>Bench Press</h3><p>Compound chest + triceps movement.</p></div>
+      <div class="card"><h3>Incline Bench</h3><p>Emphasizes upper chest activation.</p></div>
+      <div class="card"><h3>Decline Bench</h3><p>Targets lower chest fibers.</p></div>
+      <div class="card"><h3>Adjustable Bench</h3><p>Multiple angles for varied training.</p></div>
+      <div class="card"><h3>Abdominal Bench</h3><p>Core stability and strength.</p></div>
+    </div>
+
+    <h2>Our Trainers</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>Jesus Gonzalez</h3>
+        <p>An Absolute Unit. Mon–Fri 12:00pm–12:50pm</p>
+        <p><strong>Email:</strong> jgonzalez174@csustan.edu</p>
+      </div>
+      <div class="card">
+        <h3>Elizabeth Melo</h3>
+        <p>Track &amp; field focus. Mon–Fri 2:00pm–2:50pm</p>
+        <p><strong>Email:</strong> EMelo@csustan.edu</p>
+      </div>
+      <div class="card">
+        <h3>Brashit Tarmani</h3>
+        <p>Powerlifting specialist. Mon–Fri 1:00pm–1:50pm</p>
+        <p><strong>Email:</strong> BTarmani@csustan.edu</p>
+      </div>
+    </div>
+
+    <section class="section">
+      <h2>Sign Up for a Trainer Session</h2>
+      <form id="signup-form" class="form" method="post" novalidate>
+        <div class="grid grid-2">
+          <div>
+            <label for="fname">First Name</label>
+            <input id="fname" name="fname" placeholder="First name">
+          </div>
+          <div>
+            <label for="lname">Last Name</label>
+            <input id="lname" name="lname" placeholder="Last name">
+          </div>
+        </div>
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" placeholder="name@csustan.edu">
+        <button class="btn" type="submit">Submit</button>
+        <p class="text-muted" style="color:var(--text-muted);margin-top:8px;">We will contact you to schedule your first session.</p>
+      </form>
+    </section>
+  </main>
+
+
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <small>© 2025 Gym Titus. Student project for CSU Stanislaus.</small>
+      <small>One University Circle, Turlock, CA 95382 • M–F 9:00am–5:00pm</small>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
